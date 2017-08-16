@@ -1,0 +1,127 @@
+.grey {
+  background-color: grey;
+}
+.lightorange {
+  background-color: #F0B632;
+}
+ #header {
+   min-height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+#Header {
+  color: #3299F0;
+  font-size: 40px;
+}
+
+.header-bar {
+  color: #3299F0;
+  font-size: 40px;
+  width: 100%
+}
+
+.header-h1 {
+  text-align: center;
+  top: 0px
+}
+
+.right-btn {
+  position: absolute;
+right: 0px;
+margin-right: 14px;
+margin-top: 3px;
+top: 0px
+
+}
+#middle {
+min-height: 610px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#footer {
+  min-height: 55px;
+  background-color: #6886CC;
+  display: flex;
+  align-items: center;
+}
+#footerText {
+  color: gold;
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+#inputBox {
+  width: 600px;
+  color: white;
+  height: 50px;
+  background-image: url('/SpaceBackground.jpg');
+  border-radius: 15px;
+  font-size: 30px;
+}
+#inputBox::placeholder{
+  color: white;
+}
+
+.login {
+  width: 400px;
+  color: #6886CC ;
+  border-color: gold;
+  background-color: beige;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#LoginBtn {
+  margin-bottom: 10px;
+  background-color: #6886CC;
+  color: gold;
+  font-weight: bold;
+  width: 90px;
+}
+#RegBtn{
+  background-color: #6886CC;
+  color: gold;
+  font-weight: bold;
+  width: 90px;
+
+}
+#InfoContainer {
+  width: 500px;
+  height: 500px;
+  background-color: #d6e0f5;
+  border-radius: 30px;
+}
+
+.picture1 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  border-radius: 50%;
+  padding-top: 10px;
+  margin: 0;
+
+}
+
+img {
+  border-radius: 50%;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
