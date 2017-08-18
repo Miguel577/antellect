@@ -6,7 +6,17 @@ var models = require('../models')
 router.get('/', (request, response) => {
     response.render('index'); // For React/Redux
 });
+router.get("/matching", (req, res) => {
+  res.render('matching')
+});
 
+router.get("/random", (req, res) => {
+console.log(req)
+  res.render('random')
+});
+router.get("/mentor", (req, res) => {
+  res.render('mentor')
+})
 // SAMPLE ROUTE
 
 module.exports = router;
